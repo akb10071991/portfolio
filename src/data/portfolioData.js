@@ -152,7 +152,7 @@ export const portfolioData = {
     experienceData: [
         {
             id: 1,
-            company: "NextGen Invent Pvt. Ltd.",
+            company: "NextGen Invent",
             role: "Senior Software Engineer",
             duration: "November 2022 – Present",
             description:
@@ -167,7 +167,7 @@ export const portfolioData = {
         },
         {
             id: 2,
-            company: "Tech Tammina Pvt. Ltd.",
+            company: "Tech Tammina LLC",
             role: "Senior Software Engineer",
             duration: "May 2020 – October 2022",
             description:
@@ -181,7 +181,7 @@ export const portfolioData = {
         },
         {
             id: 3,
-            company: "ClickMail Solutions Pvt. Ltd.",
+            company: "ClickMail Solutions",
             role: "Software Engineer",
             duration: "April 2018 – March 2020",
             description:
@@ -195,7 +195,7 @@ export const portfolioData = {
         },
         {
             id: 4,
-            company: "Muvi Entertainment Pvt. Ltd.",
+            company: "Muvi Entertainment",
             role: "Software Engineer",
             duration: "August 2016 – March 2018",
             description:
@@ -209,7 +209,7 @@ export const portfolioData = {
         },
         {
             id: 5,
-            company: "AH Web Solutions Pvt. Ltd.",
+            company: "AH Web Solutions",
             role: "Software Engineer",
             duration: "January 2016 – August 2016",
             description:
