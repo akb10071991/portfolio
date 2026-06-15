@@ -101,7 +101,7 @@ export const portfolioData = {
             title: "ProcedureSite (MedTel)",
             description:
                 "Scalable and secure admin panel for managing medical procedures, users, and system workflows. Implements RBAC, dynamic data management, real-time updates, and optimized API integrations.",
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+            image: "https://images.unsplash.com/photo-1543286386-713bdd548da4",
             tech: [
                 "React",
                 "TypeScript",
@@ -135,7 +135,7 @@ export const portfolioData = {
             title: "iPost – Enterprise Email Platform",
             description:
                 "Enterprise Email Service Provider (ESP) solution with custom analytics (Conversion, Funnel, and Page Tracking), RSS feed configuration, calendar scheduling, and Facebook Lead Ads API integration.",
-            image: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935",
+            image: "https://images.unsplash.com/photo-1552664730-d307ca884978",
             tech: [
                 "React JS",
                 "Node.js",
