@@ -16,28 +16,28 @@ const contactCards = [
   {
     id: 1,
     title: "Email",
-    value: "ashis@example.com",
+    value: "akb91ashis@gmail.com",
     icon: <FaEnvelope />,
   },
 
   {
     id: 2,
     title: "LinkedIn",
-    value: "linkedin.com/in/ashis",
+    value: "linkedin.com/in/ashis-barik-775a53ab",
     icon: <FaLinkedin />,
   },
 
   {
     id: 3,
     title: "GitHub",
-    value: "github.com/ashis",
+    value: "github.com/akb10071991",
     icon: <FaGithub />,
   },
 
   {
     id: 4,
     title: "Phone",
-    value: "+91 XXXXX XXXXX",
+    value: "+91 6370 324741",
     icon: <FaPhoneAlt />,
   },
 ];

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 import { portfolioData } from "../data/portfolioData";
 import {
     fadeInUp,
@@ -56,7 +57,7 @@ const Hero = () => {
                     <motion.div variants={fadeInUp}>
 
                         <p className="mb-4 inline-block rounded-full border border-cyan-400/30 bg-cyan-400/20 px-4 py-1 text-sm text-cyan-600 dark:bg-cyan-400/10 dark:text-cyan-300">
-                            Frontend Engineer | Full Stack Developer | Open to Opportunities
+                            Full Stack Developer | Open to Opportunities
                         </p>
 
                         <h1 className="text-5xl font-bold tracking-tight sm:text-7xl leading-tight">
@@ -90,13 +91,23 @@ const Hero = () => {
                         {/* Buttons */}
                         <div className="mt-10 flex gap-4">
 
-                            <button className="rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-black transition hover:bg-cyan-300">
+                            <Link
+                                to="projects"
+                                smooth={true}
+                                duration={500}
+                                className="inline-flex items-center justify-center rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-black transition hover:bg-cyan-300 cursor-pointer"
+                            >
                                 View Projects
-                            </button>
+                            </Link>
 
-                            <button className="rounded-xl border border-gray-400/40 px-6 py-3 font-semibold text-gray-900 hover:bg-gray-100 transition dark:border-white/20 dark:text-white dark:hover:bg-white/10">
+                            <Link
+                                to="contact"
+                                smooth={true}
+                                duration={500}
+                                className="inline-flex items-center justify-center rounded-xl border border-gray-400/40 px-6 py-3 font-semibold text-gray-900 hover:bg-gray-100 transition dark:border-white/20 dark:text-white dark:hover:bg-white/10 cursor-pointer"
+                            >
                                 Contact Me
-                            </button>
+                            </Link>
 
                         </div>
 
